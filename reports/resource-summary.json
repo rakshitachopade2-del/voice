@@ -1,0 +1,32 @@
+{
+  "measuredOn": {
+    "cpu": "Apple M4 Pro",
+    "logicalCpus": 12,
+    "ramGiB": 24,
+    "os": "27.0.0"
+  },
+  "browser": "156.0.8078.73",
+  "completedAt": "2026-10-28T21:12:44.789Z",
+  "overallPeakBrowserFootprintGiB": 1.9875907450914383,
+  "overallPeakRendererFootprintGiB": 1.5907657593488693,
+  "overallPeakSummedRssGiB": 2.60943603515625,
+  "idleLoadedMedianGiB": 1.2052147686481476,
+  "postSoakIdleMedianGiB": 1.1155987828969955,
+  "sttMedianMs": 418.8250000178814,
+  "shortTtsMedianMs": 2431.939999997616,
+  "shortTtsMedianRtf": 0.683124904212367,
+  "postSoakTtsMs": 2451.125,
+  "soak": {
+    "durationSeconds": 315.41563337499997,
+    "cycles": 6,
+    "firstMinuteMedianGiB": 1.1065197139978409,
+    "lastMinuteMedianGiB": 1.1344891637563705,
+    "meanCpuCoreEquivalents": 1.6981431392139843,
+    "p95CpuCoreEquivalents": 3.3339513015178763,
+    "firstTtsMs": 2675.030000001192,
+    "lastTtsMs": 2624.8050000071526,
+    "medianRtf": 0.6825203595982223
+  },
+  "verdict": "Not validated for budget Android. Do not promise <=3 s TTS on a general 4 GB phone from these Mac results. Prefer evaluating a lighter TTS path and measure a physical phone.",
+  "errors": []
+}

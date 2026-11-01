@@ -1,0 +1,55 @@
+
+> voice-lab@0.1.0 benchmark
+> node scripts/benchmark.mjs
+
+Loading Kokoro q8
+Downloaded tokenizer.json
+Downloaded config.json
+Downloaded onnx/model_quantized.onnx
+Downloaded tokenizer_config.json
+TTS 0 1173 ms
+TTS 1 1134 ms
+TTS 2 1055 ms
+TTS 3 1126 ms
+Loading whisper-tiny.en
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded preprocessor_config.json
+Downloaded tokenizer_config.json
+Downloaded preprocessor_config.json
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded config.json
+Downloaded tokenizer.json
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded tokenizer_config.json
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded tokenizer.json
+Downloaded generation_config.json
+Downloaded onnx/encoder_model_quantized.onnx
+Downloaded onnx/decoder_model_merged_quantized.onnx
+whisper-tiny.en 0 229 ms  And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.
+whisper-tiny.en 1 214 ms  And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.
+whisper-tiny.en 2 212 ms  And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.
+whisper-tiny.en 3 209 ms  And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.
+Loading whisper-base.en
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded tokenizer_config.json
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded config.json
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded preprocessor_config.json
+Downloaded tokenizer_config.json
+Downloaded preprocessor_config.json
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Unable to determine content-length from response headers. Will expand buffer when needed.
+Downloaded generation_config.json
+Downloaded tokenizer.json
+Downloaded tokenizer.json
+Downloaded onnx/encoder_model_quantized.onnx
+Downloaded onnx/decoder_model_merged_quantized.onnx
+whisper-base.en 0 424 ms  And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.
+whisper-base.en 1 360 ms  And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.
+whisper-base.en 2 331 ms  And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.
+whisper-base.en 3 332 ms  And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.
+Saved reports/benchmark.json

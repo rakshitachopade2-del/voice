@@ -1,0 +1,52 @@
+{
+  "runtime": "Headless Chrome WASM single-thread",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "runs": [
+    {
+      "id": "903cad8c-6ed1-4a52-97e1-545a1e79b34a",
+      "at": "2026-10-28T17:47:10.886Z",
+      "sttModel": "onnx-community/whisper-tiny.en",
+      "device": "wasm",
+      "ttsEngine": "kokoro",
+      "voice": "af_heart",
+      "kind": "stt",
+      "input": "",
+      "output": "And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.",
+      "stt": 1060.7400000095367,
+      "clipSeconds": 11,
+      "wer": null
+    },
+    {
+      "id": "b60ca355-12a4-46ca-9a98-958e2a204d03",
+      "at": "2026-10-28T17:46:53.986Z",
+      "sttModel": "onnx-community/whisper-tiny.en",
+      "device": "wasm",
+      "ttsEngine": "kokoro",
+      "voice": "af_heart",
+      "kind": "tts",
+      "input": "A good voice assistant should feel easy to talk to. This second sentence tests queued playback.",
+      "output": "A good voice assistant should feel easy to talk to. This second sentence tests queued playback.",
+      "ttft": null,
+      "tts": 5242.044999986887,
+      "firstAudio": 5243.444999992847,
+      "rtf": 1.4632758620689654,
+      "chunks": 2
+    },
+    {
+      "id": "23367d5b-e5b7-4dee-9a93-0bf5809349b8",
+      "at": "2026-10-28T17:46:41.395Z",
+      "sttModel": "onnx-community/whisper-tiny.en",
+      "device": "wasm",
+      "ttsEngine": "kokoro",
+      "voice": "af_heart",
+      "kind": "tts",
+      "input": "A good voice assistant should feel easy to talk to. This second sentence tests queued playback.",
+      "output": "A good voice assistant should feel easy to talk to. This second sentence tests queued playback.",
+      "ttft": null,
+      "tts": 7185.8550000190735,
+      "firstAudio": 7187.960000008345,
+      "rtf": 1.7963111111122072,
+      "chunks": 2
+    }
+  ]
+}

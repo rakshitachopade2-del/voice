@@ -1,0 +1,60 @@
+{
+  "createdAt": "2026-10-28T17:45:19.640Z",
+  "runtime": "Node / ONNX CPU",
+  "hardware": "Apple M4 Pro, arm64, 24 GB RAM",
+  "note": "Native CPU runtime; these are not browser or phone timings. Warm medians use three runs.",
+  "results": [
+    {
+      "engine": "Kokoro q8 · Heart",
+      "loadMs": 209.463458,
+      "coldMs": 1172.7925,
+      "warmMedianMs": 1126.215916,
+      "samplesMs": [
+        1172.7925,
+        1134.202791,
+        1054.988084,
+        1126.215916
+      ],
+      "text": "A good voice assistant should feel easy to talk to.",
+      "audioSeconds": 3.575,
+      "detail": "RTF 0.315 · short first chunk",
+      "processRssMB": 484.296875
+    },
+    {
+      "engine": "whisper-tiny.en q8",
+      "loadMs": 29229.197499999995,
+      "coldMs": 229.3177080000023,
+      "warmMedianMs": 211.98133300000336,
+      "samplesMs": [
+        229.3177080000023,
+        214.4884169999932,
+        211.98133300000336,
+        209.37312499999825
+      ],
+      "reference": "And so my fellow Americans ask not what your country can do for you ask what you can do for your country",
+      "transcript": " And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.",
+      "clipSeconds": 11,
+      "wer": 0,
+      "detail": "WER 0.0% · 11.0 s JFK clip",
+      "processRssMB": 770.671875
+    },
+    {
+      "engine": "whisper-base.en q8",
+      "loadMs": 38522.023,
+      "coldMs": 423.68162499999744,
+      "warmMedianMs": 332.1918330000044,
+      "samplesMs": [
+        423.68162499999744,
+        359.5509580000071,
+        330.8405000000057,
+        332.1918330000044
+      ],
+      "reference": "And so my fellow Americans ask not what your country can do for you ask what you can do for your country",
+      "transcript": " And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+      "clipSeconds": 11,
+      "wer": 0,
+      "detail": "WER 0.0% · 11.0 s JFK clip",
+      "processRssMB": 866.953125
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "hardware": "Apple M4 Pro, arm64, 24 GB RAM",
+  "generatedAt": "2026-10-28T17:54:22.611Z",
+  "experiments": [
+    {
+      "name": "WASM · 1 thread",
+      "note": "Warm inference; rejected for this device",
+      "firstTtsMs": 5242.044999986887,
+      "rtf": 1.4632758620689654,
+      "pass": false,
+      "source": "browser-single-thread.json"
+    },
+    {
+      "name": "WASM · 4 threads",
+      "note": "Warm inference; cold first run was slower",
+      "firstTtsMs": 2449.689999997616,
+      "rtf": 0.6863157088135394,
+      "pass": true,
+      "source": "browser-four-thread-before-warmup.json"
+    },
+    {
+      "name": "WASM · 4 threads + warm-up",
+      "note": "Warm-up happens during Load Kokoro",
+      "firstTtsMs": 2407.7099999785423,
+      "rtf": 0.6742068965498972,
+      "pass": true,
+      "source": "browser-benchmark.json"
+    }
+  ],
+  "longResponse": {
+    "id": "4de58e29-6eb1-4cfe-8c20-35ce1e6ac7a2",
+    "at": "2026-10-28T17:53:57.532Z",
+    "sttModel": "onnx-community/whisper-tiny.en",
+    "device": "wasm",
+    "ttsEngine": "kokoro",
+    "voice": "af_heart",
+    "kind": "tts",
+    "input": "This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech.",
+    "output": "This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech. This is a short sentence about local speech.",
+    "ttft": null,
+    "tts": 2146.185000002384,
+    "firstAudio": 2147.455000013113,
+    "rtf": 0.6837282539681785,
+    "chunks": 20
+  },
+  "microphone": {
+    "id": "bb55a0d0-c9f5-4bb2-8050-e81c989b8dc6",
+    "at": "2026-10-28T17:52:52.150Z",
+    "sttModel": "onnx-community/whisper-tiny.en",
+    "device": "wasm",
+    "ttsEngine": "kokoro",
+    "voice": "af_heart",
+    "kind": "conversation",
+    "input": "And so my fellow American.",
+    "output": "Yes, we can keep speech costs close to zero. Recognition and voice generation run right here on your device. Only the text model needs a server. This is a scripted demo, so you can measure the speech pipeline without an API key.",
+    "stt": 375.3700000047684,
+    "clipSeconds": 3.24,
+    "wer": null,
+    "ttft": 25.66499999165535,
+    "tts": 2249.6350000202656,
+    "firstAudio": 2871.9300000071526,
+    "rtf": 0.6798719626182338,
+    "chunks": 4
+  }
+}
